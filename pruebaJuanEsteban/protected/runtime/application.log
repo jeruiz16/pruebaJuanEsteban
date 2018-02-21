@@ -1,0 +1,647 @@
+2017/10/13 02:19:12 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp64\www\poli\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProyectosController), 'bootstrap.widge...', Array)
+#2 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp64\www\poli\sBetaGames\themes\bootstrap\views\layouts\column2.php(18): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(126): require('C:\\wamp64\\www\\p...')
+#5 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp64\\www\\p...', Array, true)
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\wamp64\\www\\p...', Array, true)
+#7 C:\wamp64\www\poli\sBetaGames\protected\controllers\ProyectosController.php(79): CController->render('create', Array)
+#8 C:\wamp64\www\poli\yii\framework\web\actions\CInlineAction.php(49): ProyectosController->actionCreate()
+#9 C:\wamp64\www\poli\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#18 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectos/creat...')
+#19 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=proyectos/create
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/index&view=about
+---
+2017/10/13 02:20:21 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbHeroUnit" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp64\www\poli\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(198): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp64\www\poli\sBetaGames\themes\bootstrap\views\site\index.php(9): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(126): require('C:\\wamp64\\www\\p...')
+#5 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp64\\www\\p...', NULL, true)
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\wamp64\\www\\p...', NULL, true)
+#7 C:\wamp64\www\poli\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#8 C:\wamp64\www\poli\sBetaGames\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\wamp64\www\poli\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\wamp64\www\poli\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp64\www\poli\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/poli/sBetaGames/index.php
+---
+2017/10/13 03:55:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&aspecto=%24%28%27%23aspectoFuncional%27%29.val%28%29
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 03:59:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&aspecto=fn%3A%24%28%27%23aspectoFuncional%27%29.val%28%29
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:00:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&aspecto=fn%3A%24%28%27%23aspectoFuncional%27%29.val%28%29
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:01:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&aspecto=fn%3A%24%28%27%23aspectoFuncional%27%29.val%28%29&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=&aspectoNoFuncional=&_=1507867272449
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:01:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&aspecto=fn%3A%24%28%27%23aspectoFuncional%27%29.val%28%29&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=dsada&aspectoNoFuncional=&_=1507867272450
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:04:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=Aspecto+funcional&aspectoNoFuncional=&_=1507867431507
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:06:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=Aspecto+funcional&aspectoNoFuncional=&_=1507867431509
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:07:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=Aspecto+funcional&aspectoNoFuncional=&_=1507867431510
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:07:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#8 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#9 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=afda&aspectoNoFuncional=&_=1507867664863
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:11:11 [error] [exception.CException] exception 'CException' with message 'Property "Aspectos.id_proyecto" is not defined.' in C:\wamp64\www\poli\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('id_proyecto', '1')
+#1 C:\wamp64\www\poli\sBetaGames\protected\controllers\AspectosController.php(102): CActiveRecord->__set('id_proyecto', '1')
+#2 C:\wamp64\www\poli\yii\framework\web\actions\CInlineAction.php(49): AspectosController->actionCreateAspecto()
+#3 C:\wamp64\www\poli\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('CreateAspecto')
+#12 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Aspectos/Create...')
+#13 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=Aspectos/CreateAspecto&proyecto=1&isFuncional=1&Proyectos%5Bcodigo%5D=1515&Proyectos%5Bnombre%5D=Proyecto1&aspectoFuncional=afda&aspectoNoFuncional=&_=1507867664869
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/update&id=1
+---
+2017/10/13 04:18:34 [error] [exception.CException] exception 'CException' with message 'Property "Aspectos.aspectos" is not defined.' in C:\wamp64\www\poli\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp64\www\poli\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('aspectos')
+#1 C:\wamp64\www\poli\yii\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('aspectos')
+#2 C:\wamp64\www\poli\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Aspectos), 'aspectos')
+#3 C:\wamp64\www\poli\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Aspectos), 'aspectos', Array)
+#4 C:\wamp64\www\poli\yii\framework\zii\widgets\grid\CDataColumn.php(104): CHtml::activeTextField(Object(Aspectos), 'aspectos', Array)
+#5 C:\wamp64\www\poli\yii\framework\zii\widgets\grid\CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 C:\wamp64\www\poli\sBetaGames\protected\extensions\bootstrap\widgets\TbDataColumn.php(53): CGridColumn->renderFilterCellContent()
+#7 C:\wamp64\www\poli\yii\framework\zii\widgets\grid\CGridView.php(539): TbDataColumn->renderFilterCell()
+#8 C:\wamp64\www\poli\yii\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderFilter()
+#9 C:\wamp64\www\poli\yii\framework\zii\widgets\grid\CGridView.php(487): CGridView->renderTableHeader()
+#10 C:\wamp64\www\poli\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 C:\wamp64\www\poli\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#13 C:\wamp64\www\poli\yii\framework\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#14 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(182): CBaseListView->run()
+#15 C:\wamp64\www\poli\sBetaGames\protected\views\proyectos\_form.php(81): CBaseController->widget('bootstrap.widge...', Array)
+#16 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(126): require('C:\\wamp64\\www\\p...')
+#17 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp64\\www\\p...', Array, true)
+#18 C:\wamp64\www\poli\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\wamp64\\www\\p...', Array, true)
+#19 C:\wamp64\www\poli\sBetaGames\protected\views\proyectos\update.php(21): CController->renderPartial('_form', Array)
+#20 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(126): require('C:\\wamp64\\www\\p...')
+#21 C:\wamp64\www\poli\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp64\\www\\p...', Array, true)
+#22 C:\wamp64\www\poli\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\wamp64\\www\\p...', Array, true)
+#23 C:\wamp64\www\poli\yii\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#24 C:\wamp64\www\poli\sBetaGames\protected\controllers\ProyectosController.php(108): CController->render('update', Array)
+#25 [internal function]: ProyectosController->actionUpdate('1')
+#26 C:\wamp64\www\poli\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProyectosController), Array)
+#27 C:\wamp64\www\poli\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProyectosController), Object(ReflectionMethod), Array)
+#28 C:\wamp64\www\poli\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#29 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#30 C:\wamp64\www\poli\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#31 C:\wamp64\www\poli\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#32 C:\wamp64\www\poli\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#33 C:\wamp64\www\poli\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#34 C:\wamp64\www\poli\yii\framework\web\CController.php(291): CFilterChain->run()
+#35 C:\wamp64\www\poli\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#36 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#37 C:\wamp64\www\poli\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectos/updat...')
+#38 C:\wamp64\www\poli\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#39 C:\wamp64\www\poli\sBetaGames\index.php(13): CApplication->run()
+#40 {main}
+REQUEST_URI=/poli/sBetaGames/index.php?r=proyectos/update&id=1
+HTTP_REFERER=http://localhost/poli/sBetaGames/index.php?r=proyectos/view&id=1
+---
+2018/02/21 23:27:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pruebajuanesteban.tbl_proyectos' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_proyectos`.
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\proyectos\index.php (20)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProyectosController.php (133)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:27:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_proyectos" for active record class "Proyectos" cannot be found in the database.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Proyectos))
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\proyectos\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProyectosController.php(133): CController->render('index', Array)
+#17 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): ProyectosController->actionIndex()
+#18 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectos/index')
+#28 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=proyectos/index&view=about
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/
+---
+2018/02/21 23:39:02 [warning] [application] Failed to set unsafe attribute "username" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:02 [warning] [application] Failed to set unsafe attribute "password" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:02 [warning] [application] Failed to set unsafe attribute "rememberMe" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:02 [error] [exception.CException] exception 'CException' with message 'Usuarios and its behaviors do not have a method or closure named "login".' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): CActiveRecord->__call('login', Array)
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): Usuarios->login()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+---
+2018/02/21 23:39:47 [warning] [application] Failed to set unsafe attribute "username" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:47 [warning] [application] Failed to set unsafe attribute "password" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:47 [warning] [application] Failed to set unsafe attribute "rememberMe" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:47 [error] [exception.CException] exception 'CException' with message 'Usuarios and its behaviors do not have a method or closure named "login".' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): CActiveRecord->__call('login', Array)
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): Usuarios->login()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+---
+2018/02/21 23:39:51 [warning] [application] Failed to set unsafe attribute "username" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:51 [warning] [application] Failed to set unsafe attribute "password" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:51 [warning] [application] Failed to set unsafe attribute "rememberMe" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:51 [error] [exception.CException] exception 'CException' with message 'Usuarios and its behaviors do not have a method or closure named "login".' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): CActiveRecord->__call('login', Array)
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): Usuarios->login()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+---
+2018/02/21 23:39:59 [warning] [application] Failed to set unsafe attribute "username" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:59 [warning] [application] Failed to set unsafe attribute "password" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:59 [warning] [application] Failed to set unsafe attribute "rememberMe" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:39:59 [error] [exception.CException] exception 'CException' with message 'Usuarios and its behaviors do not have a method or closure named "login".' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): CActiveRecord->__call('login', Array)
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): Usuarios->login()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+---
+2018/02/21 23:40:41 [warning] [application] Failed to set unsafe attribute "username" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:40:41 [warning] [application] Failed to set unsafe attribute "password" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:40:41 [warning] [application] Failed to set unsafe attribute "rememberMe" of "Usuarios".
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php (92)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/21 23:40:41 [error] [exception.CException] exception 'CException' with message 'Usuarios and its behaviors do not have a method or closure named "login".' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): CActiveRecord->__call('login', Array)
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(94): Usuarios->login()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+---
+2018/02/21 23:40:42 [error] [exception.CException] exception 'CException' with message 'Property "Usuarios.username" is not defined.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Usuarios), 'username')
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Usuarios), 'username', Array)
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Usuarios), 'username', Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(Usuarios), 'username', Array)
+#6 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInput.php(230): TbInputHorizontal->textField()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(182): TbInputHorizontal->run()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('text', Object(Usuarios), 'username', NULL, Array)
+#11 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\themes\bootstrap\views\site\login.php(29): TbActiveForm->textFieldRow(Object(Usuarios), 'username')
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): CController->renderPartial('login', Array, true)
+#16 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#17 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#18 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#22 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#23 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/
+---
+2018/02/21 23:40:44 [error] [exception.CException] exception 'CException' with message 'Property "Usuarios.username" is not defined.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Usuarios), 'username')
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Usuarios), 'username', Array)
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Usuarios), 'username', Array)
+#5 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(Usuarios), 'username', Array)
+#6 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInput.php(230): TbInputHorizontal->textField()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(182): TbInputHorizontal->run()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('text', Object(Usuarios), 'username', NULL, Array)
+#11 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\themes\bootstrap\views\site\login.php(29): TbActiveForm->textFieldRow(Object(Usuarios), 'username')
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): CController->renderPartial('login', Array, true)
+#16 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#17 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#18 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#22 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#23 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=site/login
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/
+---
+2018/02/21 23:45:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('products/admin')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/admin
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/index
+---
+2018/02/21 23:54:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('products/admin')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/admin
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/view&id=1
+---
+2018/02/22 00:00:01 [error] [php] Creating default object from empty value (C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\admin.php:43)
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): ProductsController->renderFile()
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): ProductsController->renderPartial()
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php(146): ProductsController->render()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionAdmin()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(134): ProductsController->runAction()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): ProductsController->run()
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CWebApplication->run()
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/admin
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\admin.php (43)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php (146)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php (13)
+2018/02/22 00:10:56 [error] [php] Missing argument 3 for CActiveForm::dropDownList(), called in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\_form.php on line 24 and defined (C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\widgets\CActiveForm.php:912)
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): ProductsController->renderFile()
+#2 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\create.php(18): ProductsController->renderPartial()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): ProductsController->renderFile()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): ProductsController->renderPartial()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php(81): ProductsController->render()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionCreate()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(134): ProductsController->runAction()
+#11 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#17 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): ProductsController->run()
+#18 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CWebApplication->run()
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/create
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\_form.php (24)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\create.php (18)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php (81)
+2018/02/22 00:12:47 [error] [php] Object of class Category could not be converted to string (C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\helpers\CHtml.php:2561)
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\_form.php(24): CActiveForm->dropDownList()
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): ProductsController->renderFile()
+#4 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\create.php(18): ProductsController->renderPartial()
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(872): ProductsController->renderFile()
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(785): ProductsController->renderPartial()
+#9 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php(81): ProductsController->render()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionCreate()
+#11 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(134): ProductsController->runAction()
+#13 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#16 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#19 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): ProductsController->run()
+#20 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CWebApplication->run()
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=products/create
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\_form.php (24)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\views\products\create.php (18)
+in C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\protected\controllers\ProductsController.php (81)
+2018/02/22 00:19:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('category/admin')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=category/admin
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=category/index&view=about
+---
+2018/02/22 00:23:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/admin')
+#9 C:\xampp\htdocs\pruebaJuanEsteban\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pruebaJuanEsteban\pruebaJuanEsteban\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=usuarios/admin
+HTTP_REFERER=http://localhost/pruebaJuanEsteban/pruebaJuanEsteban/index.php?r=usuarios/index&view=about
+---
